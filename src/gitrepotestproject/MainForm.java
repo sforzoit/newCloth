@@ -63,13 +63,13 @@ public class MainForm extends javax.swing.JFrame {
 
         jMenu2.setText("Edit");
 
-        jMenuItem5.setText("jMenuItem1");
+        jMenuItem5.setText("yad");
         jMenu2.add(jMenuItem5);
 
-        jMenuItem6.setText("jMenuItem1");
+        jMenuItem6.setText("kum");
         jMenu2.add(jMenuItem6);
 
-        jMenuItem7.setText("jMenuItem1");
+        jMenuItem7.setText("muk");
         jMenu2.add(jMenuItem7);
 
         jMenuItem8.setText("dispose on close");
