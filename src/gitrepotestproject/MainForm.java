@@ -72,7 +72,7 @@ public class MainForm extends javax.swing.JFrame {
         jMenuItem7.setText("jMenuItem1");
         jMenu2.add(jMenuItem7);
 
-        jMenuItem8.setText("jMenuItem1");
+        jMenuItem8.setText("dispose on close");
         jMenu2.add(jMenuItem8);
 
         jMenuItem9.setText("dispose");
