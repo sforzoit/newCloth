@@ -75,7 +75,12 @@ public class MainForm extends javax.swing.JFrame {
         jMenuItem8.setText("jMenuItem1");
         jMenu2.add(jMenuItem8);
 
-        jMenuItem9.setText("jMenuItem1");
+        jMenuItem9.setText("dispose");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem9);
 
         jMenuItem10.setText("close");
@@ -121,6 +126,11 @@ public class MainForm extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jMenuItem10ActionPerformed
+
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
 
     /**
      * @param args the command line arguments
